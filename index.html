@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -42,10 +42,16 @@
 <label for="opis">* Opis problema</label>
 <textarea id="opis" name="opis" rows="7" cols="50" maxlength="200" required placeholder="unesite opis do max 200 znakova">
 </textarea>
-</p>
+</p><br>
+<label for="datum">Datum prijave:</label><br>
+<input id="datum" type="date" min="2024-02-18" max="2024-02-29"/>
+<br>
+<label for="dokumente">Dokument privitak:</label><br>
+<input id="dokument" type="file"> <br>
 <p>
     <input type="submit" value="Pošalji">
     <input type="reset" value="Resetiraj podatke">
+    <input type="submit" value="pošalji backup"/>
 </p>
     </form>
 </body>
